@@ -1,0 +1,299 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+}
+
+nav{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+nav ul{
+    display: flex;
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 10px;
+  
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  
+
+}
+nav li:hover{
+    background-color: cornflowerblue;
+}
+.container{
+
+    margin-top: 60px;
+
+}
+.top-header{
+    background-color: darkblue;
+    height: 677px;
+    width: 100%;
+
+   
+}
+.copa2021{
+   color: whitesmoke;
+   align-items: center;
+   justify-content: center;
+   margin-left: 165px;
+
+   
+}
+
+.copa2021 h1{
+    margin-left: 165px;
+    font-size: 4em;
+    margin-top: -145px;
+    font-weight: bold;
+}
+
+.copa2021 a{
+    margin-left: 165px;
+}
+
+.login-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    height: 25px;
+    width: 80px;
+    margin-right: 0%;
+    margin-left: 500px;
+    text-align: center;
+    padding: 10px 24px;
+
+
+    
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    height: 20px;
+    width: 70px;
+    padding: 10px 24px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.link-button:hover{
+    background-color: rgb(206, 38, 164);
+}
+ .photo-frame {
+    width: 350px;
+    height: 200px;
+} 
+
+.photo img {
+    width: 500px;
+    margin-left: 800px;
+    margin-top: 75px;
+
+}
+
+.photo-frame:hover .photo {
+    transform: scale(1.5);
+    transition: transform 3s ease-in-out;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+    grid-row-gap: 30px; 
+    align-items: center;
+}
+.player{
+    width: 330px;
+    height: 450px;
+    padding-top: 20px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 3px 3px 6px 6px gray;
+    border-left: 10px;
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: left;
+
+}
+
+
+.player img{
+    width:320px;
+height: 210px;
+margin-top:-8px;
+
+}
+
+
+.player-name{
+    margin-left: 5px;
+    font-weight: bold;
+} 
+
+.fas{
+margin: 5px;
+}
+
+
+
+.all-highlights{
+    margin-left: 165px;
+    margin-top: 150px;
+    display: flex;
+    
+    }
+
+    .half-width{
+        width: 600px;
+        border: 5px;
+    
+    }
+
+
+
+.half-width img{
+    width: 550px;
+    height: 400px;
+}
+
+.copa2021-highlights p{
+color:gray;
+margin-top: -10px;
+margin-bottom: 30px;
+}
+.copa2021-highlights h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+.allhighlights-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    height: 20px;
+    width: 70px;
+    padding: 10px 24px;
+    margin-left: 0px;
+    
+}
+.section-title{
+    color: navy;
+    font-size: 25px;
+}
+.highlighted-part h2{
+    margin-left: 165px;
+    margin-top: 100px;
+
+}
+.highlights-rate{
+    margin-left: 165px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.highlights .highlightsPic img{
+    width: 450px;
+    height: 350px;
+    box-shadow: 3px 3px 6px 6px lightgray;
+    background-color: rgb(196, 199, 201);
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+ 
+    }
+.football{
+   width: 50%;
+   
+}
+
+.highlights-info{
+
+    font-size: 15px;
+    text-align: center;
+    margin-right: 150px;
+
+}
+
+
+.highlights-info p{
+
+  align-content: flex-start;
+
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.football-button{
+    text-decoration: none;
+    
+}
+   
+footer img{
+    height:120px;
+    width: 430px;
+    
+}
+    footer{
+        text-align: center;
+        margin-top: 100px;
+        
+    }
+
+    footer li{
+        list-style-type: none;
+    }
+
+footer li i{
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 10px solid lightcyan;
+    margin-top: 40px;
+}
+.social-media p{
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 688px){
+    .main-container{
+       width: 100%;
+    }
+    .players .player{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players .player{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .main-container{
+        width: 100%;
+    }
+    .players{
+       grid-template-columns: repeat(1, 1fr);
+    }
+}
+
